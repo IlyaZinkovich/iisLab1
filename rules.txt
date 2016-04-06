@@ -1,0 +1,7 @@
+class=golo leaf_structure=cheshue then family=kiparis
+class=pokryto leaf_structure=cheshue then family=huolo
+type=tree leaf_form=broad then class=pokryto
+trunk=green then type=grassy
+trunk=treely polojeniye=lying then type=lian
+trunk=treely polojeniye=standing only_trunk=yes then type=tree
+type=tree leaf_form=not_broad then class=golo
