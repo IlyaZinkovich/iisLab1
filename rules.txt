@@ -1,7 +1,21 @@
-class=golo leaf_structure=cheshue then family=kiparis
-class=pokryto leaf_structure=cheshue then family=huolo
-type=tree leaf_form=broad then class=pokryto
-trunk=green then type=grassy
-trunk=treely polojeniye=lying then type=lian
-trunk=treely polojeniye=standing only_trunk=yes then type=tree
-type=tree leaf_form=not_broad then class=golo
+collective=band genre=rock then musician=rocker
+musician=rocker frontman=yes type=string then instrument=guitar
+musician=rocker frontman=no type=string then instrument=bass
+musician=rocker frontman=no type=percussion then instrument=drums
+collective=solo genre=electronic type=key then instrument=synthesizer
+collective=orchestra genre=classic then musician=orchestra_classics_player
+collective=solo genre=classic then musician=solo_classics_player
+musician=orchestra_classics_player type=string then instrument=cello
+musician=solo_classics_player type=string then instrument=violin
+musician=solo_classics_player type=wind then instrument=clarinette
+musician=solo_classics_player type=key then instrument=piano
+musician=orchestra_classics_player type=wind then instrument=tube
+collective=band genre=pop then musician=pop_band_player
+musician=pop_band_player type=string then instrument=guitar
+musician=pop_band_player type=key then instrument=synthesizer
+musician=pop_band_player type=percussion then instrument=drums
+collective=solo genre=pop then musician=pop_solo_player
+musician=pop_solo_player type=string then instrument=guitar
+musician=pop_solo_player type=key then instrument=piano
+collective=band genre=electronic then musician=electronics_player
+musician=electronics_player type=key then instrument=synthesizer

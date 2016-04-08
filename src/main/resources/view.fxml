@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.bsu.iis.Controller">
+   <children>
+      <VBox layoutX="194.0" layoutY="82.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="title" prefHeight="17.0" prefWidth="625.0" text="Choose the category you are interested in">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="options" prefHeight="25.0" prefWidth="654.0" />
+            <Button fx:id="next" mnemonicParsing="false" onAction="#onNext" prefHeight="25.0" prefWidth="615.0" text="Go find the one that fits you better" />
+            <ListView fx:id="list" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
